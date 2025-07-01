@@ -1,0 +1,52 @@
+Write a Python program that does the following:
+ 
+Input: Ask the user to enter their full name with extra spaces at the beginning and end.
+Example: " John Doe "
+ 
+Cleaning:
+ 
+Use strip() to remove the spaces.
+ 
+Use upper() to convert it to uppercase.
+ 
+Print the cleaned name.
+ 
+Splitting and Accessing:
+ 
+Use split() to separate the first and last names.
+ 
+Print each part on a new line using formatted strings (f-strings).
+ 
+Concatenation:
+ 
+Concatenate the first name and last name with a hyphen in between.
+ 
+Print the result.
+ 
+Length:
+ 
+Print the number of characters in the full name (excluding spaces).
+ 
+Bonus (Optional):
+ 
+Reverse the name using string slicing.
+ 
+Check if the name contains the letter 'a' (case-insensitive).
+ 
+ 
+Enter your full name:    John Doe   
+ 
+Cleaned Name: JOHN DOE
+ 
+First Name: JOHN
+
+Last Name: DOE
+ 
+Concatenated: JOHN-DOE
+ 
+Length (without spaces): 7
+ 
+Reversed: EOD NHOJ
+ 
+Contains 'a'?: False
+ 
